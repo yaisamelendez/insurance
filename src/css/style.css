@@ -1,7 +1,3 @@
-/*
- * Solution by GetTemplates.co
- * URL: https://GetTemplates.co
- */
 @font-face {
   font-family: "Lato-Regular";
   src: url(../fonts/Lato-Regular.ttf);
@@ -96,7 +92,7 @@ body {
   text-transform: uppercase;
   -webkit-background-clip: text;
   -ms-background-clip: text;
-  -o-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -ms-text-fill-color: transparent;
   -o-text-fill-color: transparent;
@@ -268,6 +264,9 @@ body {
   padding-right: 5px;
   text-decoration: none !important;
 }
+#footer .submit-button {
+  margin-bottom: 50px;
+}
 
 .banner-area a .fa,
 .feature-principal a .fa,
@@ -352,8 +351,19 @@ body {
   }
 }
 
+
+@media (min-width: 768px) {
+  .mobile{
+    display: none;
+  }
+}
+
+
 @media (max-width: 767px) {
   .banner-area .col-md-6 .card .card-img-top {
+    display: none;
+  }
+  .no-mobile{
     display: none;
   }
 }
@@ -613,7 +623,7 @@ body {
 
 .testimonials {
   position: relative;
-  margin-top: 200px;
+  margin-top: 60px;
 }
 
 @media (max-width: 767px) {
