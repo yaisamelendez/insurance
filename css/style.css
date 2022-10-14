@@ -307,6 +307,7 @@ body {
   color: #000000;
   max-width: 500px;
   margin-top: 70px;
+  line-height: 1;
 }
 
 .banner-area h1 span {
@@ -779,18 +780,21 @@ body {
 }
 
 .logo-area {
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
 .logo-area .col .img-fluid {
-  max-height: 32px;
+  max-height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 600px) {
   .logo-area .col {
     flex: 0 0 50%;
     max-width: 50%;
-    margin: 20px 0;
+    margin: 0;
   }
 }
 
