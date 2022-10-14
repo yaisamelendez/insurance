@@ -290,7 +290,6 @@ body {
   font-family: "Lato-Regular";
   color: #000000;
   font-size: 36px;
-  margin-bottom: 30px;
 }
 
 .card {
@@ -337,7 +336,6 @@ body {
   max-width: 430px;
   margin: 0 auto;
   margin-top: 30px;
-  margin-right: 0;
 }
 
 @media (max-width: 1400px) {
@@ -356,7 +354,7 @@ body {
 
 @media (max-width: 767px) {
   .banner-area .col-md-6 .card .card-img-top {
-    margin-top: 100px;
+    display: none;
   }
 }
 
@@ -398,30 +396,19 @@ body {
   display: inline-block;
 }
 
-.feature-principals {
-  margin-top: 100px;
+.feature-principals .container {
+  padding-top: 100px;
 }
 
 .feature-principals svg {
   position: absolute;
   margin-left: -100px;
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 @media (max-width: 767px) {
   .feature-principals svg {
     margin: 0 auto;
-    margin-top: 200px;
-  }
-}
-
-.feature-principals h2 {
-  margin-top: 200px;
-}
-
-@media (max-width: 991px) {
-  .feature-principals h2 {
-    margin-top: 0;
   }
 }
 
@@ -870,13 +857,14 @@ body {
 
 #footer {
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #footer h4 {
   font-family: "Lato-Medium";
   font-size: 24px;
   color: #1d3ede;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #footer input,
@@ -942,7 +930,7 @@ body {
 }
 
 #footer .col-12 {
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 #footer .col-12 p {
@@ -950,6 +938,29 @@ body {
   font-size: 18px;
   color: #999999;
 }
+
+#footer .follow-us {
+  position: relative;
+  padding: 0 20px;
+  display: block;
+}
+
+#footer .follow-us .social-item{
+  display: inline-block;
+  margin: 2px 3px;
+  padding: 0;
+  position: relative;
+}
+
+#footer .follow-us .social-item a{
+  padding: 0 10px;
+  color: #666666;
+}
+
+#footer .follow-us .social-item a i{
+  font-size: 24px;
+}
+
 
 @media (max-width: 991px) {
   #footer .col-12 {
@@ -984,6 +995,6 @@ body {
   color:#FFF;
 }
 
-.whatsapp-icon {
+.whatsapp .whatsapp-icon {
   margin-top:13px;
 }
