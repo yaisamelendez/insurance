@@ -250,9 +250,9 @@ body {
   }
 }
 
-.gtco-banner-area a,
-.gtco-feature a,
-.gtco-features a,
+.banner-area a,
+.feature-principal a,
+.feature-principals a,
 .gtco-news .owl-carousel .card a,
 #footer .submit-button {
   background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -269,9 +269,9 @@ body {
   text-decoration: none !important;
 }
 
-.gtco-banner-area a .fa,
-.gtco-feature a .fa,
-.gtco-features a .fa,
+.banner-area a .fa,
+.feature-principal a .fa,
+.feature-principals a .fa,
 .gtco-news .owl-carousel .card a .fa,
 #footer .submit-button .fa {
   background: #fff;
@@ -285,8 +285,8 @@ body {
   margin-left: 15px;
 }
 
-.gtco-feature h2,
-.gtco-features h2 {
+.feature-principal h2,
+.feature-principals h2 {
   font-family: "Lato-Regular";
   color: #000000;
   font-size: 36px;
@@ -298,12 +298,12 @@ body {
   background: transparent;
 }
 
-.gtco-banner-area {
+.banner-area {
   margin-top: 20px;
   min-height: 500px;
 }
 
-.gtco-banner-area h1 {
+.banner-area h1 {
   font-family: "Lato-Light";
   font-size: 48px;
   color: #000000;
@@ -311,29 +311,29 @@ body {
   margin-top: 70px;
 }
 
-.gtco-banner-area h1 span {
+.banner-area h1 span {
   font-family: "Lato-Medium";
 }
 
 @media (max-width: 1199px) {
-  .gtco-banner-area h1 {
+  .banner-area h1 {
     margin-top: 30px;
   }
 }
 
-.gtco-banner-area p {
+.banner-area p {
   max-width: 450px;
   margin: 20px 0;
   margin-bottom: 40px;
 }
 
-.gtco-banner-area a {
+.banner-area a {
   display: inline;
   padding: 10px 30px;
   padding-right: 5px;
 }
 
-.gtco-banner-area .col-md-6 .card .card-img-top {
+.banner-area .col-md-6 .card .card-img-top {
   max-width: 430px;
   margin: 0 auto;
   margin-top: 30px;
@@ -341,7 +341,7 @@ body {
 }
 
 @media (max-width: 1400px) {
-  .gtco-banner-area .col-md-6 .card .card-img-top {
+  .banner-area .col-md-6 .card .card-img-top {
     max-width: 400px;
     margin-top: 20px;
     margin-right: auto;
@@ -349,39 +349,39 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .gtco-banner-area .col-md-6 .card .card-img-top {
+  .banner-area .col-md-6 .card .card-img-top {
     max-width: 350px;
   }
 }
 
 @media (max-width: 767px) {
-  .gtco-banner-area .col-md-6 .card .card-img-top {
+  .banner-area .col-md-6 .card .card-img-top {
     margin-top: 100px;
   }
 }
 
-.gtco-feature {
+.feature-principal {
   margin-top: 100px;
 }
 
-.gtco-feature .card .back-bg {
+.feature-principal .card .back-bg {
   margin-left: -30px !important;
   margin-top: -20px;
 }
 
-.gtco-feature .card svg {
+.feature-principal .card svg {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.gtco-feature .card svg.defs {
+.feature-principal .card svg.defs {
   position: absolute;
   width: 0;
   height: 0;
 }
 
-.gtco-feature .card .squircle {
+.feature-principal .card .squircle {
   width: 100%;
   height: 450px;
   background: url(../images/learn-img.jpg) center/cover, #aaa;
@@ -389,75 +389,75 @@ body {
   background-position-x: -50px;
 }
 
-.gtco-feature p small {
+.feature-principal p small {
   font-size: 16px;
 }
 
-.gtco-feature a {
+.feature-principal a {
   margin-top: 20px;
   display: inline-block;
 }
 
-.gtco-features {
+.feature-principals {
   margin-top: 100px;
 }
 
-.gtco-features svg {
+.feature-principals svg {
   position: absolute;
   margin-left: -100px;
   margin-top: 100px;
 }
 
 @media (max-width: 767px) {
-  .gtco-features svg {
+  .feature-principals svg {
     margin: 0 auto;
     margin-top: 200px;
   }
 }
 
-.gtco-features h2 {
+.feature-principals h2 {
   margin-top: 200px;
 }
 
 @media (max-width: 991px) {
-  .gtco-features h2 {
+  .feature-principals h2 {
     margin-top: 0;
   }
 }
 
-.gtco-features .col-lg-4 p {
+.feature-principals .col-lg-4 p {
   max-width: 320px;
   margin-bottom: 30px;
 }
 
-.gtco-features .col-lg-8 {
+.feature-principals .col-lg-8 {
   padding: 10px 100px;
 }
 
 @media (max-width: 767px) {
-  .gtco-features .col-lg-8 {
+  .feature-principals .col-lg-8 {
     padding: 10px 0;
   }
 }
 
-.gtco-features .col-lg-8 .row .col:first-child {
+.feature-principals .col-lg-8 .row .col:first-child {
   margin-top: 150px;
 }
 
 @media (max-width: 600px) {
-  .gtco-features .col-lg-8 .row .col:first-child {
+  .feature-principals .col-lg-8 .row .col:first-child {
     margin-top: 50px;
   }
 }
 
 @media (max-width: 600px) {
-  .gtco-features .col-lg-8 .col {
+  .feature-principals .col-lg-8 .col {
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
 
-.gtco-features .col-lg-8 .card {
+.feature-principals .col-lg-8 .card {
   background: #fff;
   margin: 30px 5px;
   padding: 20px 10px;
@@ -465,7 +465,7 @@ body {
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
 }
 
-.gtco-features .col-lg-8 .card .oval {
+.feature-principals .col-lg-8 .card .oval {
   background: linear-gradient(to right, #f1f6fd, #f0fbfe);
   padding: 10px;
   width: 150px;
@@ -475,48 +475,48 @@ body {
   margin-top: 20px;
 }
 
-.gtco-features .col-lg-8 .card .card-img-top {
+.feature-principals .col-lg-8 .card .card-img-top {
   max-width: 0.8in;
   margin: 0 auto;
   transform: rotate(-20deg);
 }
 
-.gtco-features .col-lg-8 .card h3 {
+.feature-principals .col-lg-8 .card h3 {
   font-family: "Lato-Regular";
   font-size: 24px;
   color: #1d3ede;
 }
 
-.gtco-features .col-lg-8 .card p {
+.feature-principals .col-lg-8 .card p {
   font-size: 16px;
 }
 
-.gtco-numbers-block {
+.numbers-block {
   margin: 100px auto;
   margin-top: 200px;
   color: #fff;
 }
 
 @media (max-width: 600px) {
-  .gtco-numbers-block {
+  .numbers-block {
     margin-top: 100px;
   }
 }
 
 @media (max-width: 1299px) {
-  .gtco-numbers-block .row {
+  .numbers-block .row {
     max-width: 1000px;
     margin: 0 auto;
   }
 }
 
 @media (max-width: 767px) {
-  .gtco-numbers-block .row .col-3 {
+  .numbers-block .row .col-3 {
     padding: 0;
   }
 }
 
-.gtco-numbers-block #custom-map::before {
+.numbers-block #custom-map::before {
   position: absolute;
   content: "";
   height: 100px;
@@ -524,7 +524,7 @@ body {
   border: 2px solid red;
 }
 
-.gtco-numbers-block svg {
+.numbers-block svg {
   margin-top: -100px;
   position: absolute;
   left: 0;
@@ -535,107 +535,107 @@ body {
 }
 
 @media (max-width: 1299px) {
-  .gtco-numbers-block svg {
+  .numbers-block svg {
     margin-top: -90px;
   }
 }
 
 @media (max-width: 1199px) {
-  .gtco-numbers-block svg {
+  .numbers-block svg {
     margin-top: -60px;
   }
 }
 
 @media (max-width: 991px) {
-  .gtco-numbers-block svg {
+  .numbers-block svg {
     margin-top: -40px;
   }
 }
 
 @media (max-width: 650px) {
-  .gtco-numbers-block svg {
+  .numbers-block svg {
     margin-top: -20px;
   }
 }
 
 @media (max-width: 600px) {
-  .gtco-numbers-block svg {
+  .numbers-block svg {
     margin-top: -10px;
   }
 }
 
-.gtco-numbers-block h5 {
+.numbers-block h5 {
   font-family: "Lato-Bold";
   font-size: 60px;
 }
 
 @media (max-width: 1299px) {
-  .gtco-numbers-block h5 {
+  .numbers-block h5 {
     font-size: 48px;
   }
 }
 
 @media (max-width: 767px) {
-  .gtco-numbers-block h5 {
+  .numbers-block h5 {
     font-size: 24px;
   }
 }
 
 @media (max-width: 600px) {
-  .gtco-numbers-block h5 {
+  .numbers-block h5 {
     margin: 0;
     font-size: 18px;
   }
 }
 
-.gtco-numbers-block p {
+.numbers-block p {
   font-family: "Lato-Semibold";
   font-size: 24px;
   color: #fff;
 }
 
 @media (max-width: 1299px) {
-  .gtco-numbers-block p {
+  .numbers-block p {
     font-size: 18px;
   }
 }
 
 @media (max-width: 991px) {
-  .gtco-numbers-block p {
+  .numbers-block p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 991px) {
-  .gtco-numbers-block p {
+  .numbers-block p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 600px) {
-  .gtco-numbers-block p {
+  .numbers-block p {
     line-height: 1.1;
   }
 }
 
 @media (max-width: 500px) {
-  .gtco-numbers-block p {
+  .numbers-block p {
     font-size: 8px;
   }
 }
 
-.gtco-testimonials {
+.testimonials {
   position: relative;
   margin-top: 200px;
 }
 
 @media (max-width: 767px) {
-  .gtco-testimonials {
+  .testimonials {
     margin-top: 100px;
   }
 }
 
-.gtco-testimonials h2 {
+.testimonials h2 {
   font-family: "Lato-Medium";
   font-size: 36px;
   text-align: center;
@@ -643,19 +643,19 @@ body {
   margin-bottom: 100px;
 }
 
-.gtco-testimonials .owl-stage-outer {
+.testimonials .owl-stage-outer {
   padding-bottom: 30px;
 }
 
-.gtco-testimonials .owl-nav {
+.testimonials .owl-nav {
   display: none;
 }
 
-.gtco-testimonials .owl-dots {
+.testimonials .owl-dots {
   text-align: center;
 }
 
-.gtco-testimonials .owl-dots span {
+.testimonials .owl-dots span {
   position: relative;
   height: 10px;
   width: 10px;
@@ -666,11 +666,11 @@ body {
   margin: 0 5px;
 }
 
-.gtco-testimonials .owl-dots .active {
+.testimonials .owl-dots .active {
   box-shadow: none;
 }
 
-.gtco-testimonials .owl-dots .active span {
+.testimonials .owl-dots .active span {
   background: #01e6f8;
   box-shadow: none;
   height: 12px;
@@ -678,7 +678,7 @@ body {
   margin-bottom: -1px;
 }
 
-.gtco-testimonials .card {
+.testimonials .card {
   background: #fff;
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
   margin: 0 30px;
@@ -686,7 +686,7 @@ body {
   border-radius: 50px;
 }
 
-.gtco-testimonials .card .card-img-top {
+.testimonials .card .card-img-top {
   max-width: 100px;
   border-radius: 50%;
   margin: 0 auto;
@@ -695,59 +695,59 @@ body {
   height: 100px;
 }
 
-.gtco-testimonials .card h5 {
+.testimonials .card h5 {
   color: #1d3ede;
   font-size: 21px;
   line-height: 1.3;
   font-family: "Lato-Medium";
 }
 
-.gtco-testimonials .card h5 span {
+.testimonials .card h5 span {
   font-size: 18px;
   color: #666666;
   font-family: "OpenSans-Regular";
 }
 
-.gtco-testimonials .card p {
+.testimonials .card p {
   font-size: 18px;
 }
 
-.gtco-testimonials .active {
+.testimonials .active {
   opacity: 0.5;
   transition: all 0.3s;
 }
 
-.gtco-testimonials .center {
+.testimonials .center {
   opacity: 1;
 }
 
-.gtco-testimonials .center h5 {
+.testimonials .center h5 {
   font-size: 24px;
 }
 
-.gtco-testimonials .center h5 span {
+.testimonials .center h5 span {
   font-size: 20px;
 }
 
-.gtco-testimonials .center p {
+.testimonials .center p {
   font-size: 20px;
 }
 
-.gtco-testimonials .center .card-img-top {
+.testimonials .center .card-img-top {
   max-width: 100%;
   height: 120px;
   width: 120px;
 }
 
-.gtco-features-list {
+.feature-principals-list {
   margin-top: 100px;
 }
 
-.gtco-features-list .media {
+.feature-principals-list .media {
   margin: 20px 0;
 }
 
-.gtco-features-list .oval {
+.feature-principals-list .oval {
   border-radius: 50%;
   background-color: white;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
@@ -756,34 +756,34 @@ body {
   width: 60px;
 }
 
-.gtco-features-list .oval .align-self-start {
+.feature-principals-list .oval .align-self-start {
   width: 100%;
   padding: 3px;
 }
 
-.gtco-features-list .media-body {
+.feature-principals-list .media-body {
   font-family: "OpenSans-Regular";
   font-size: 16px;
   color: #666666;
   padding-right: 20px;
 }
 
-.gtco-features-list .media-body h5 {
+.feature-principals-list .media-body h5 {
   font-family: "Lato-Semibold";
   margin-bottom: 20px !important;
   font-size: 22px;
 }
 
-.gtco-logo-area {
+.logo-area {
   margin: 50px auto;
 }
 
-.gtco-logo-area .col .img-fluid {
+.logo-area .col .img-fluid {
   max-height: 32px;
 }
 
 @media (max-width: 600px) {
-  .gtco-logo-area .col {
+  .logo-area .col {
     flex: 0 0 50%;
     max-width: 50%;
     margin: 20px 0;
@@ -967,8 +967,8 @@ body {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:40px;
-  right:40px;
+  bottom:20px;
+  right:20px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
@@ -979,6 +979,8 @@ body {
 
 .whatsapp:hover {
   font-size:40px;
+  width:70px;
+  height:70px;
   color:#FFF;
 }
 
