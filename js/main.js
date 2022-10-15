@@ -93,6 +93,6 @@ function sendMail(x) {
     }else if(!message){
         $("#contact .messageError").append("Por favor, escriba su mensaje.");
     }else{
-        window.open(`mailto:yaisamelendez@gmail.com?subject=${subject}-${name}&body=${message}`);
+        window.open(`mailto:yaisamhealth@gmail.com?subject=${subject}-${name}&body=${message}`);
     }
 }
