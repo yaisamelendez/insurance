@@ -878,7 +878,8 @@ body {
 
 #footer {
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
+  background-color: #FDFDFD;
 }
 
 #footer h4 {
@@ -1018,4 +1019,12 @@ body {
 
 .whatsapp .whatsapp-icon {
   margin-top:13px;
+}
+
+#about .contact-info{
+  background: #ffffff00;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 5px;
+  text-transform: lowercase;
 }
